@@ -4,10 +4,6 @@ import Icon from 'react-native-vector-icons/AntDesign';
 import { View, Text, Platform, StyleSheet } from 'react-native'
 
 export default class Main extends Component {
-  static navigationOptions={
-    title: '',
-    tabBarIcon: <Icon name="home" size={20} color="#999" />
-  }
   render(){
     return (
       <View style={styles.container}>
