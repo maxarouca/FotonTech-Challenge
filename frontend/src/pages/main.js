@@ -1,13 +1,26 @@
 import React, {Component} from 'react'
+import Icon from 'react-native-vector-icons/AntDesign';
 
-import { View, Text } from 'react-native'
+import { View, Text, Platform, StyleSheet } from 'react-native'
 
 export default class Main extends Component {
+  static navigationOptions={
+    title: '',
+    tabBarIcon: <Icon name="home" size={20} color="#999" />
+  }
   render(){
     return (
-      <View>
+      <View style={styles.container}>
         <Text>Página Main</Text>
       </View>
     )
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    ...Platform.select({
+      ios: { paddingTop: 50},
+    })
+  }
+})
