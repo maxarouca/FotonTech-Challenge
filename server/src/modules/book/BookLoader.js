@@ -1,4 +1,7 @@
-export const loadAllBooks = (root, args, context) => {
+import Books from '../../mongo/index' 
+
+
+export const loadAllBooks = (root, args, context ) => {
   const books = [
     {
       title: 'Harry Potter and the Chamber of Secrets',
@@ -15,6 +18,6 @@ export const loadAllBooks = (root, args, context) => {
       },
     },
   ];
-
-  return books;
+  // const books = Books.find()
+  return books
 }

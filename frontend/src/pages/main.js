@@ -7,7 +7,9 @@ export default class Main extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text>Página Main</Text>
+        <View>
+          <Text>Página Main</Text>
+        </View>
       </View>
     )
   }
@@ -15,6 +17,8 @@ export default class Main extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    backgroundColor: '#F2F9FC',
     ...Platform.select({
       ios: { paddingTop: 50},
     })

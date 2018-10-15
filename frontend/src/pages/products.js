@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Icon from 'react-native-vector-icons/AntDesign';
 
 import { View, Text, Platform, StyleSheet } from 'react-native'
 
@@ -15,6 +14,8 @@ export default class Products extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    backgroundColor: '#F2F9FC',
     ...Platform.select({
       ios: { paddingTop: 50 },
     })
