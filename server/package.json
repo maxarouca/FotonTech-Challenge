@@ -12,7 +12,11 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "graphql": "^14.0.2",
+<<<<<<< HEAD
     "mongoose": "^5.3.5"
+=======
+    "mongoose": "^5.3.4"
+>>>>>>> 41c41a7cc35a7e29d63dd6dfbb4b5f978be9e3b1
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",

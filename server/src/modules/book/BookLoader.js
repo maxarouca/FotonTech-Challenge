@@ -1,4 +1,4 @@
-export const loadAllBooks = (root, args, context) => {
+export const loadAllBooks = (root, args, context ) => {
   const books = [
     {
       title: "Harry Potter and the Chamber of Secrets",
